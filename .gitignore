@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+venv/
+env/
+*.DS_Store
+exports/
+*.pdf
+*.csv
+!sample_data/demo_emails.csv
