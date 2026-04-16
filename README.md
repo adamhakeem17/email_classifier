@@ -85,7 +85,7 @@ ollama pull llama3
 
 # 2. Clone and install
 git clone https://github.com/adamhakeem17/email_classifier
-cd ai-email-classifier
+cd email_classifier
 pip install -r requirements.txt
 
 # 3. Generate a demo dataset
@@ -119,8 +119,8 @@ python cli.py --text "Cancel my subscription please" --json
 ### Option C — Docker
 
 ```bash
-git clone https://github.com/adamhakeem17/email.classifier
-cd ai-email-classifier
+git clone https://github.com/adamhakeem17/email_classifier
+cd email_classifier
 cp .env.example .env
 docker-compose up --build
 ```
@@ -244,4 +244,3 @@ MIT — free to use, fork, and build on.
 ---
 
 *Built with [LangChain](https://langchain.com) · [Ollama](https://ollama.ai) · [Streamlit](https://streamlit.io) · [Plotly](https://plotly.com)*
-# email_classifier
